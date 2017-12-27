@@ -618,16 +618,28 @@ Prevents content overflow in navbar. */
     padding: 0;
 }
 
-.btn-login {
+.btn-login-student {
     background-color: transparent;
     box-shadow: none;
-    color: #0F0;
+    color: #50b3f9;
 }
 
-.btn-login:focus,
-.btn-login:hover,
-.btn-login:active {
-    color: #0F0;
+.btn-login-student:focus,
+.btn-login-student:hover,
+.btn-login-student:active {
+    color: #429dde;
+}
+
+.btn-login-instructor {
+    background-color: transparent;
+    box-shadow: none;
+    color: #fac090;
+}
+
+.btn-login-instructor:focus,
+.btn-login-instructor:hover,
+.btn-login-instructor:active {
+    color: #eea338;
 }
 
 @media (max-width: 768px) {
